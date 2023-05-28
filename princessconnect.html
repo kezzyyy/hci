@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Princess Connect! Re:Dive  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Princess Connect! Re:Dive  </h2>
+        <p> Princess Connect! Re:Dive is an anime series that follows the story of a young man named Yuuki, who wakes up in a mysterious fantasy world with no memory of his past. He quickly meets a group of adventurers, including the cheerful and energetic warrior Pecorine, the shy and reserved mage Karyl, and the mysterious elf-like Kokkoro.
+            Together, they embark on a quest to help Yuuki recover his memories and discover the secrets of the fantasy world they find themselves in. Along the way, they face a variety of challenges and obstacles, including battling monsters, navigating treacherous dungeons, and uncovering sinister plots and conspiracies.
+            As the series progresses, the characters deepen their bonds and friendships, learning to rely on and support each other in the face of adversity. They also encounter a variety of other characters, including a mischievous fox spirit, a gentle giant, and a powerful dragon knight.
+            The anime explores themes of friendship, loyalty, and the importance of working together to overcome challenges. It also features stunning animation and visuals, bringing the rich and detailed world of the fantasy realm to life in vivid detail.
+            Overall, Princess Connect! Re:Dive is an exciting and action-packed anime that offers a fresh take on the isekai genre, with a diverse cast of characters and a deep and engaging storyline. It's a must-watch for fans of fantasy and adventure, and is sure to leave viewers on the edge of their seats.</p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/princessconnect.mp4" type="video/mp4"></video>
+    <div class="video-container">
+
+      <footer>
+        <p> SAKURA ANIME </p>
+      </footer> 
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Re:Zero  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Re:Zero </h2>
+        <p>Re:Zero is an anime series that follows the story of Subaru Natsuki, a teenager who finds himself transported to a fantasy world. After wandering around the city for a while, he is suddenly attacked and killed by an unknown assailant.
+            However, he is surprised to wake up in the same place where he first arrived, as if nothing had happened. He discovers that he has the ability to "Return by Death", which means he is sent back in time to a specific point whenever he dies.
+            Using this ability, Subaru tries to figure out what is going on in this new world and how he can return to his own. Along the way, he meets and befriends Emilia, a half-elf girl who is running for the throne, as well as other characters who become important to his journey.
+            However, Subaru's ability to Return by Death comes with a heavy toll, as he must suffer through the pain and trauma of each death before he can continue on his journey. He also discovers that the world he has been transported to is much darker and more dangerous than he originally thought, and that his actions have serious consequences for those around him.
+            As the series progresses, Subaru must navigate complex political and social dynamics while also fighting against powerful enemies and uncovering the secrets of his ability. The anime explores themes of trauma, identity, and the consequences of choice, as Subaru struggles to survive and make a difference in this new world.
+            Overall, Re:Zero is a gripping and emotionally-charged anime that offers a unique take on the isekai genre, combining action, suspense, and psychological elements to create a captivating and thought-provoking story.</p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/rezero.mp4" type="video/mp4"></video>
+    <div class="video-container">
+
+      <footer>
+        <p> SAKURA ANIME </p>
+      </footer> 
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

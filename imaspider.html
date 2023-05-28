@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> I'm a Spider, So What?  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> I'm a Spider, So What? </h2>
+        <p> I'm a Spider, So What? (or Kumo desu ga, Nani ka? in Japanese) is an anime series that follows the story of a high school student who is reincarnated into a fantasy world as a spider. The spider is born into a dangerous labyrinth filled with monsters, and must learn to survive in this new and unfamiliar world.
+            As the spider navigates the labyrinth, she discovers that she possesses unique abilities and skills, such as web-spinning and poison fangs, which help her to fend off the many dangers that she encounters. She also gains experience points and levels up, growing stronger and more capable with each passing day.
+            As the series progresses, the spider begins to encounter other creatures in the labyrinth, including other spiders and various humanoid monsters. She forms alliances and rivalries with these creatures, and learns more about the complex ecosystem of the labyrinth.
+            Meanwhile, back in the human world, the family and friends of the high school student who was reincarnated as the spider are struggling to come to terms with his disappearance. They search for him desperately, but are unable to find any trace of him.
+            The anime explores themes of survival, adaptation, and self-discovery, as the spider learns to navigate this new world and understand her place in it. It also features stunning animation and visuals, bringing the intricate world of the labyrinth to life in vivid detail.
+            Overall, I'm a Spider, So What? is a unique and captivating anime that offers a fresh take on the isekai genre, exploring the world from the perspective of a small and unassuming creature. It's a must-watch for fans of fantasy and adventure, and is sure to leave viewers on the edge of their seats. </p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/spiderso.mp4" type="video/mp4"> </video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

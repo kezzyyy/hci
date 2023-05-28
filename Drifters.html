@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Drifters  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Drifters </h2>
+        <p> Drifters is an anime series that follows the story of several historical figures from different eras who are brought together in a mysterious world known as the Endless Valleys. These figures, known as Drifters, are recruited by a powerful warrior named Murasaki to fight against the Ends, a group of powerful beings who seek to conquer the world and subjugate its inhabitants.
+            The Drifters, including the likes of Oda Nobunaga, Shimazu Toyohisa, and Yoichi Suketaka Nasu, are transported to this new world and quickly find themselves embroiled in a war against the Ends. Along the way, they encounter various other characters, both friendly and hostile, and engage in intense battles using their unique skills and abilities.
+            As the series progresses, the Drifters learn more about the world they find themselves in, its history, and the nature of their own existence. They also begin to question their motivations and the morality of their actions as they engage in ever-more-deadly battles against the Ends.
+            The anime explores themes of power, morality, and the consequences of war, as the Drifters struggle to protect the innocent and defeat their enemies. It also features dynamic and engaging action sequences, as well as intricate character development for its large cast of historical figures.
+            Overall, Drifters is a thrilling and thought-provoking anime that offers a unique blend of action, historical fiction, and fantasy elements.</p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/drifters.mp4" type="video/mp4"> </video>
+    <div class="video-container">
+
+      <footer>
+        <p> SAKURA ANIME </p>
+      </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

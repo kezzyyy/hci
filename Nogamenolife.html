@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> No Game No life  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> No Game No Life </h2>
+        <p> No Game No Life is an anime series that follows the story of Sora and Shiro, two siblings who are known as "Blank" in the online gaming community. They are considered to be the best gamers in the world, with their skills surpassing even professional players.
+            One day, they receive a mysterious challenge from a god-like being known as Tet, who transports them to a fantasy world where everything is decided by games. In this world, known as Disboard, conflicts are resolved through various games, and the outcome of each game determines the fate of the players involved.
+            Sora and Shiro quickly find themselves in the middle of a power struggle between various races and factions, each vying for control of Disboard. Using their exceptional gaming skills, they begin to challenge the various factions and rise to the top, eventually aiming to challenge and defeat Tet himself.
+            Throughout the series, Sora and Shiro face numerous challenges and enemies, as they navigate the complex world of Disboard and uncover the secrets of its past. They also form alliances with various other players, including the cute and mysterious gamer girl, Jibril.
+            The anime explores themes of strategy, competition, and the power of games, as Sora and Shiro use their gaming prowess to overcome seemingly impossible challenges and outwit their opponents. It also features a vibrant and colorful world, filled with quirky characters and imaginative game scenarios.
+            Overall, No Game No Life is a fun and engaging anime that offers a fresh take on the isekai genre, combining gaming and fantasy elements to create a unique and captivating story. </p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/nogamenolife.mp4" type="video/mp4"></video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

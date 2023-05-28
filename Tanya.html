@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> The Saga of Tanya the Evil  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> The Saga of Tanya the Evil </h2>
+        <p> The Saga of Tanya the Evil is an anime series set in an alternate world that resembles Europe during World War I. The story follows the character of Tanya Degurechaff, a young girl who is a powerful mage and a ruthless soldier serving in the Empire's military.
+            Despite her young age, Tanya is a cunning and tactical strategist who rises through the ranks quickly, gaining a reputation as a fearsome and efficient leader on the battlefield. However, she is also known for her cold and ruthless demeanor, leading her subordinates to nickname her "The Devil of the Rhine".
+            As the war continues, Tanya becomes embroiled in a complex political and military struggle, fighting against enemies both internal and external. She also has to deal with the consequences of her own actions, including the moral implications of war and the toll it takes on herself and those around her.
+            Throughout the series, Tanya faces numerous challenges and enemies, including a mysterious entity known as "Being X", who seems to be manipulating events behind the scenes. She also has to confront her own identity and beliefs, as she struggles to reconcile her own ruthless behavior with the values of the world around her.
+            The anime explores themes of war, morality, and the nature of power, as Tanya navigates the treacherous world of politics and warfare. It also features thrilling action sequences and intricate world-building, adding depth and complexity to the story.
+            Overall, The Saga of Tanya the Evil is a unique and engaging anime that offers a fresh take on the isekai genre, combining military fiction, fantasy, and psychological elements to create a captivating and thought-provoking story. </p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/tanyaevil.mp4" type="video/mp4"></video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>> 
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

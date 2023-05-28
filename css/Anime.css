@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+  
+body {
+  background: url(../vid/bgbg.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  header {
+    background-color:#F5B0B2;
+    color: #fffff0;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+  }
+
+  .tihead {
+    color: #fffff0 ;
+  }
+  
+  .parent {
+    float: left;    
+    margin: 0 15px 0 0
+  }
+
+  .sakura {
+    float: right;    
+    margin: 0 15px 0 0
+  }
+
+nav {
+    background-color:#F8E9D9;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+  }
+  
+  nav li {
+    font-size: 25px;
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  nav a {
+    color:#CE8CA5;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    border-radius: 5px;
+    background-color:#FBD48C;
+ }
+
+ .animeB{
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+ }
+
+ .imgContainer {
+  align-items: center;
+  float: left;
+  padding: 50px;
+  text-decoration: none;
+}
+
+.firsR {
+  font-size: 50px;  
+  padding-left: 20px;
+}
+
+.seconR {
+  font-size: 50px;  
+  padding-left: 20px;
+}
+
+.thirR {
+  font-size: 50px;  
+  padding-left: 20px;
+}
+
+footer {
+  height: 100px; 
+  background-color: #ccc;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-size: x-large;
+  margin-top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a {
+  color: #f20303;
+  text-decoration: none;
+}
+
+footer a:hover {
+border-radius: 5px;
+background-color:#CE8CA5;
+}  
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#back-to-top:hover {
+  background-color: #555;
+}
+

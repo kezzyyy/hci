@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Her Majesty's Swarm </title>
+    <link rel="stylesheet" type="text/css" href="./css/mangain.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Manga.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2><strong> Her Majesty's Swarm </strong></h2>
+        <p> Our protagonist is a college student who enjoys playing as the evil-aligned faction Arachnea in her favorite real-time strategy game. One day, she finds herself in a world similar to the one in the game; additionally, her body is now that of a fourteen-year-old girl. While things are a bit different from how they were in the game, one element has remained the same: she is the leader of the Arachnea. The insects under her control, collectively known as the Swarm, praise her and implore her to lead them to victory. In order to survive, she raises her Swarm and forms friendly relations with the elves of the neighboring forest. But after a slaver traveling through the forest murders one of her Swarm and the nearby kingdom's knights burn down the elven village and massacre its people, she prepares to launch her counterattacks in the name of revenge. However, revenge is merely a pretense for attacking the countries of this world. Her command is masterful and severe, as one who has played the game in real life… </p>
+      </section>
+    </main>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="anime.js" ></script>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+      
+        <div class="carousel-inner">
+            <div class="item active">
+             <img src="img/l1.jpg" >
+            </div>
+        
+            <div class="item">
+             <img src="img/l2.jpg">
+            </div>
+        
+            <div class="item">
+             <img src="img/l3.jpg" >
+            </div>
+
+            <div class="item">
+             <img src="img/l4.jpg">
+            </div>
+
+            <div class="item active">
+             <img src="img/l5.jpg" >
+            </div>
+
+          </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+
+      <footer>
+        <p> SAKURA ANIME </p>
+      </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

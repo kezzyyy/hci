@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Sword Art Online  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Sword Art Online </h2>
+        <p> Sword Art Online (SAO) is an anime series set in the near future where virtual reality gaming has become extremely popular. The story follows the character of Kirito, a skilled gamer who eagerly dives into the latest virtual reality MMORPG game, also called Sword Art Online.
+            However, Kirito and thousands of other players soon discover that they are unable to log out of the game. They are trapped inside the virtual world by the game's creator, Akihiko Kayaba, and the only way to escape is to clear all 100 floors of the game's tower. If they die in the game, they will also die in real life.
+            Kirito, determined to survive and escape, teams up with other players and friends to fight their way through the game's dangerous and deadly challenges. Along the way, he also forms a bond with a girl named Asuna, who becomes his partner and love interest in the game.
+            As they progress through the game's floors, Kirito and his friends uncover a sinister plot and confront various enemies, including other players who have turned to murder and betrayal in order to survive. They also discover the truth behind Kayaba's intentions and his connection to the game's world.
+            The anime explores themes of friendship, love, and survival in a virtual world, as Kirito and his friends battle their way through various challenges and face the harsh realities of their situation. It also features thrilling action sequences and intricate world-building, creating a rich and immersive experience for viewers.
+            Overall, Sword Art Online is a popular and highly acclaimed anime that offers a unique and engaging take on the virtual reality genre, combining gaming, adventure, and romance to create a captivating and unforgettable story. </p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/SAO.mp4" type="video/mp4"> </video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

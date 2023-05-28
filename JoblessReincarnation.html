@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Jobless Reincarnation </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Jobless Reincarnation </h2>
+        <p> Jobless Reincarnation (or Mushoku Tensei in Japanese) is an anime series that follows the story of a 34-year-old man named Rudeus Greyrat, who dies in a traffic accident and is reincarnated into a magical world as a baby. With his previous life's memories intact, Rudeus is determined to make the most of his second chance and live a fulfilling life.
+            Growing up in his new world, Rudeus discovers that he possesses exceptional magical abilities, and is trained in magic and swordsmanship by his parents and various tutors. As he grows older, he embarks on various adventures, including joining a group of adventurers and learning more about the world around him.
+            Throughout the series, Rudeus struggles with his own personal demons and tries to come to terms with his past mistakes and flaws. He also faces numerous challenges, including conflicts with powerful enemies and internal struggles with his own desires and ambitions.
+            As the story progresses, Rudeus develops close relationships with various characters, including his childhood friend Sylphiette, his mentor Roxy, and his own parents. He learns the importance of friendship, loyalty, and self-sacrifice, and becomes a true hero in his own right.
+            The anime explores themes of growth, redemption, and self-discovery, as Rudeus navigates the challenges of his new life and learns to become a better person. It also features stunning animation and visuals, creating a beautiful and immersive world that captivates viewers.
+            Overall, Jobless Reincarnation is a thought-provoking and emotionally resonant anime that offers a unique take on the isekai genre, combining fantasy, action, and drama to create a compelling and unforgettable story. </p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/joblessreincarnation.mp4" type="video/mp4"></video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

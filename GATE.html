@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> GATE  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> GATE </h2>
+        <p> GATE (or Gate: Jieitai Kanochi nite, Kaku Tatakaeri) is an anime series that follows the story of a portal that suddenly opens in Tokyo, connecting the modern world with a medieval fantasy realm. The Japanese Self-Defense Forces (JSDF) launch a mission to explore the world beyond the Gate, and they encounter dragons, monsters, and other fantasy creatures.
+          The main character, Youji Itami, is a JSDF soldier and otaku who becomes involved in the mission. Along with his team, Itami discovers that the fantasy world is at war, and he decides to help the locals in their fight against an evil empire.
+          Throughout the series, Itami and his team make alliances with various factions in the fantasy world, and they use their modern technology and military tactics to help turn the tide of the war. However, they also face opposition from those who wish to exploit the Gate for their own gain.
+          Overall, GATE is a thrilling mix of action, adventure, and fantasy, with a unique premise that combines modern military technology with a medieval world.</p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/GATE.mp4" type="video/mp4"> </video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

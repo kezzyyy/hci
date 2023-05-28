@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> The Devil Is a Part-Timer!  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> The Devil Is a Part-Timer!  </h2>
+        <p> The Devil Is a Part-Timer! is an anime series that follows the story of the Demon Lord Satan who, after losing a war against the Hero Emilia in his world, is transported to modern-day Tokyo along with his loyal general, Alciel. In Tokyo, they find themselves without their magical powers and in human form.
+            With no other options, Satan takes on the name Sadao Maou and begins to work at a fast-food restaurant called MgRonald's. He quickly rises through the ranks and becomes the store's most valuable employee, all while trying to find a way to regain his magical powers and return to his world.
+            As the series progresses, Satan and his companions encounter various characters, both human and supernatural, including a fallen angel named Lucifer and a powerful hero from their own world, who have also been transported to Tokyo. They also face a new threat from a group of powerful demons who seek to overthrow Satan and take over his position as the Demon Lord.
+            Throughout the series, Satan struggles to balance his desire to regain his powers and return to his world with his newfound love for his human life and the people around him. He learns the value of hard work, responsibility, and compassion, and begins to understand the true meaning of power and leadership.
+            The anime explores themes of friendship, loyalty, and the meaning of identity, as Satan and his companions navigate the challenges of adapting to a new world and coming to terms with their own pasts. It also features a healthy dose of humor and parody, satirizing both fantasy and modern-day Japanese culture.
+            Overall, The Devil Is a Part-Timer! is a hilarious and heartwarming anime that offers a unique take on the isekai genre, combining fantasy, comedy, and drama to create a captivating and entertaining story. </p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/devilparttime.mp4" type="video/mp4"></video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

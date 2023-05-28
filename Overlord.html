@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> OverLord  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Overlord </h2>
+        <p>Overlord is an anime series that follows the story of a popular online game called Yggdrasil, which is set to shut down after 12 years of service. The game's main character, Momonga, decides to stay logged in until the very end, but when the shutdown time arrives, he finds himself trapped in the game.
+            To his surprise, Momonga discovers that the game world has become real, and he is now trapped in the body of his in-game avatar, an undead sorcerer named Ainz Ooal Gown. Along with the other non-player characters who have come to life, Ainz sets out to explore the new world and discover the secrets of his new existence.
+            As he navigates this new world, Ainz discovers that his new powers and abilities are far beyond anything he could have imagined. With his vast knowledge of the game and his powerful magic, Ainz quickly establishes himself as a force to be reckoned with in this new reality.           
+            Throughout the series, Ainz and his followers encounter various factions and races in the new world, and they soon become embroiled in a larger conflict that threatens the entire realm. As Ainz continues to gain power and influence, he must also grapple with the moral implications of his actions and the consequences of his quest for dominance.       
+            Overall, Overlord is a thrilling and action-packed anime that explores themes of power, morality, and the consequences of playing God in a fantasy world.</p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/overlord.mp4" type="video/mp4"></video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer> 
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

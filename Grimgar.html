@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Grimgar: Ashes and Illusions  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Grimgar: Ashes and Illusions </h2>
+        <p> Grimgar: Ashes and Illusions is an anime series that follows a group of strangers who find themselves in a mysterious world with no memories of their past lives. The only thing they remember is their own names. In this new world, they are forced to adapt to their new surroundings and make a living by joining a guild and becoming "Volunteers" who are tasked with defeating monsters and other creatures.
+            The main character, Haruhiro, wakes up in this new world and quickly realizes that he has to work with his fellow Volunteers to survive. Together, they embark on a journey to explore the world, defeat monsters, and uncover the secrets of their new home.
+            As they progress through their journey, the group faces many challenges and struggles to overcome their own personal demons. The harsh reality of their new life hits them hard as they struggle to make ends meet, and the loss of comrades in battle takes a heavy toll on their mental and emotional well-being.
+            Throughout the series, the group learns to rely on each other and form strong bonds of friendship as they face the trials and tribulations of their new world. The anime is a character-driven story that focuses on the personal growth of each character as they adapt to their new life and become stronger both physically and mentally.
+            Overall, Grimgar: Ashes and Illusions is a captivating and emotional anime that explores themes of friendship, loss, and self-discovery in a fantasy world filled with danger and adventure.</p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/Grimgar.mp4" type="video/mp4"></video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

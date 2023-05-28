@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Log Horizon  </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> Log Horizon </h2>
+        <p> Log Horizon is an anime series set in a world of fantasy where players of the massively multiplayer online role-playing game (MMORPG) Elder Tale find themselves suddenly transported into the game world. The series follows the adventures of a socially awkward strategist and veteran player, Shiroe, as he tries to make sense of this new reality and lead his fellow players in building a new society within the game world.
+            As the players try to adjust to their new lives, they quickly discover that they are unable to log out of the game and that the rules of the game have become their reality. They also find that they have been transported six months into the game's future, with many of the game's NPCs (non-playable characters) having become self-aware and developed their own personalities and agendas.
+            Shiroe and his companions set out to create a new society within the game world, one that is based on cooperation, mutual understanding, and the power of strategic thinking. They establish the city of Akihabara as their base of operations and begin to form alliances with other players and factions.
+            Throughout the series, Shiroe and his companions face various challenges, including battles with powerful monsters and rival factions, as well as navigating the complex political landscape of the game world. They also explore the mysteries of the game's world, uncovering secrets and hidden agendas that threaten their plans for creating a peaceful and just society.
+            The anime explores themes of teamwork, leadership, and the power of strategy, as Shiroe and his companions work together to build a new society and find a way to return to their own world. It also features intricate world-building and character development, creating a rich and immersive experience for viewers.
+            Overall, Log Horizon is a compelling and thought-provoking anime that offers a unique take on the isekai genre, exploring the challenges and opportunities of building a new society within a virtual world. </p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/Log Horizon.mp4" type="video/mp4"> </video>
+    </div>
+
+    <footer>
+      <p> SAKURA ANIME </p>
+    </footer> 
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Isekai ni Otosareta… Jouka wa Kihon!  </title>
+    <link rel="stylesheet" type="text/css" href="./css/mangain.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Manga.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2><strong> Isekai ni Otosareta… Jouka wa Kihon! </strong></h2>
+        <p> One day, a dull young man from Japan gets caught up in a heroic summoning and goes to another world. The next time he wakes up, he's not in a castle with a king, but in a deep forest since the summoning failed! You'd think he'd be at a loss, but he starts living a life of survival with a positive attitude that doesn't involve deep thought! Then, before he knows it, he saves the cursed forest and magical beasts one after another with his magical powers, and is befriended by wolves and dogs in a healing paradise! However, he doesn't realize that they are actually legendary demonic beasts and spirits at all. What's more, that they are adored! A positive young man unknowingly plays with the legendary magical beasts, a heartwarming and misunderstood fantasy begins! </p>
+      </section>
+    </main>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="anime.js" ></script>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+      
+        <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/g1.jpg" >
+            </div>
+        
+            <div class="item">
+              <img src="img/g2.jpg">
+            </div>
+        
+            <div class="item">
+             <img src="img/g3.jpg" >
+            </div>
+
+            <div class="item">
+             <img src="img/g4.jpg">
+            </div>
+
+            <div class="item active">
+             <img src="img/g5.jpg" >
+            </div>
+
+          </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+
+      <footer>
+        <p> SAKURA ANIME </p>
+      </footer>
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>

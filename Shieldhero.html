@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Shield Hero </title>
+    <link rel="stylesheet" type="text/css" href="./css/animein.css">
+  </head>
+
+  <body>
+
+      <header>
+           <div class="parent">
+                <a href="Home.html"> <img src="thisisit.png" width="120px" height="100px"> 
+            </div>
+                <a href="Home.html"> <img class="sakura" src="thisisit.png" width="120px" height="100px"> </a> 
+                <a style="text-decoration: none;" href="Home.html"> <h1 class="tihead"> Sakura Anime </h1></a>
+        </header>
+    
+    <nav>
+      <ul>
+        <li><a href="Anime.html">BACK</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2> The Rising of the Shield Hero </h2>
+        <p> The Rising of the Shield Hero is an anime series that follows the story of Naofumi Iwatani, a young man who is summoned to a parallel world to become one of four legendary heroes tasked with saving the realm from destruction.
+            Naofumi is initially excited about his new role, but he quickly discovers that he has been unfairly branded as a criminal and is despised by the people of the kingdom. As the Shield Hero, Naofumi has the weakest offensive capabilities and is often underestimated by others.         
+            Despite the setbacks, Naofumi is determined to clear his name and prove his worth as a hero. He is joined by Raphtalia, a slave girl who becomes his loyal companion, and they embark on a journey to fight against the Waves of Catastrophe that threaten the world.           
+            Throughout the series, Naofumi and Raphtalia encounter various challenges and obstacles as they struggle to protect the kingdom from the Waves. They also face opposition from other heroes and political factions who seek to undermine their efforts.           
+            As the story progresses, Naofumi learns to trust others and form strong bonds with his companions, while also coming to terms with the darker aspects of the world he has been summoned to. The anime explores themes of betrayal, redemption, and the consequences of power.           
+            Overall, The Rising of the Shield Hero is a gripping and emotionally-charged anime that follows the journey of an unlikely hero who must overcome adversity and injustice to save the world.</p>
+      </section>
+    </main>
+
+    <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./vid/shieldhero.mp4" type="video/mp4"> </video>
+    <div class="video-container">
+
+      <footer>
+        <p> SAKURA ANIME </p>
+      </footer>
+
+    <button id="back-to-top" onclick="topFunction()" title="Go to top">↑</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("back-to-top").style.display = "block";
+        } else {
+          document.getElementById("back-to-top").style.display = "none";
+        }
+      }
+  
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
